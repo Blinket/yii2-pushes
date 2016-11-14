@@ -1,14 +1,14 @@
 <?php
-namespace vm\pushes\xtreme;
+namespace vr\pushes\xtreme;
 
 use Curl\Curl;
-use vm\pushes\PushMessage;
-use vm\pushes\PushProvider;
+use vr\pushes\PushMessage;
+use vr\pushes\PushProvider;
 use yii\helpers\ArrayHelper;
 
 /**
  * Class XPushProvider
- * @package vm\pushes\xtreme
+ * @package vr\pushes\xtreme
  */
 class XPushProvider extends PushProvider
 {

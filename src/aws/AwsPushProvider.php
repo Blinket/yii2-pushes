@@ -1,17 +1,17 @@
 <?php
 
-namespace vm\pushes\aws;
+namespace vr\pushes\aws;
 
 use Aws\Credentials\Credentials;
 use Aws\Sns\SnsClient;
-use vm\pushes\PushMessage;
-use vm\pushes\PushProvider;
+use vr\pushes\PushMessage;
+use vr\pushes\PushProvider;
 use yii\helpers\ArrayHelper;
 use yii\helpers\Json;
 
 /**
  * Class AwsPushProvider
- * @package vm\pushes\aws
+ * @package vr\pushes\aws
  */
 class AwsPushProvider extends PushProvider
 {

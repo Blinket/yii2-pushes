@@ -1,5 +1,5 @@
 {
-  "name": "voodoo-mobile/yii2-pushes",
+  "name": "voodoo-rocks/yii2-pushes",
   "type": "library",
   "description": "Library for working with Amazon and Xtreme pushes",
   "keywords": [
@@ -8,13 +8,13 @@
     "aps",
     "gcm"
   ],
-  "homepage": "https://github.com/voodoo-mobile/yii2-pushes",
+  "homepage": "https://github.com/voodoo-rocks/yii2-pushes",
   "license": "MIT",
   "authors": [
     {
-      "name": "Voodoo Mobile Ltd",
-      "email": "public@voodoo-mobile.com",
-      "homepage": "http://voodoo-mobile.com"
+      "name": "Voodoo Rocks Ltd",
+      "email": "public@voodoo.rocks",
+      "homepage": "http://voodoo.rocks"
     }
   ],
   "minimum-stability": "dev",
@@ -22,14 +22,14 @@
     "php": ">=5.4.0",
     "yiisoft/yii2": "~2.0",
     "php-curl-class/php-curl-class": "~4.6",
-    "aws/aws-sdk-php": "^3.15"
+    "aws/aws-sdk-php": "~3.19"
   },
   "autoload": {
     "psr-0": {
       "Pushes": "src"
     },
     "psr-4": {
-      "vm\\pushes\\": "src/"
+      "vr\\pushes\\": "src/"
     }
   },
   "extra": {

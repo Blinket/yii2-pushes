@@ -6,13 +6,13 @@
  * Time: 22:35
  */
 
-namespace vm\pushes;
+namespace vr\pushes;
 
 use yii\base\Component;
 
 /**
  * Class PushProvider
- * @package vm\pushes
+ * @package vr\pushes
  */
 abstract class PushProvider extends Component
 {
