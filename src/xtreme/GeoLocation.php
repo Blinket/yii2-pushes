@@ -1,11 +1,11 @@
 <?php
-namespace vm\pushes\xtreme;
+namespace vr\pushes\xtreme;
 
 use yii\base\Model;
 
 /**
  * Class GeoLocation
- * @package vm\pushes\xpush
+ * @package vr\pushes\xpush
  *
  * @property string $title
  */

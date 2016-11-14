@@ -6,13 +6,13 @@
  * Time: 22:37
  */
 
-namespace vm\pushes;
+namespace vr\pushes;
 
 use yii\base\Component;
 
 /**
  * Class PushMessage
- * @package vm\pushes
+ * @package vr\pushes
  */
 class PushMessage extends Component
 {
